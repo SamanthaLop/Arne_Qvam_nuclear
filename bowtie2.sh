@@ -11,6 +11,8 @@
 #SBATCH --mail-user=email@address.com
 #SBATCH --mail-type=FAIL
 
+# if running several samples and/or references, use submit_bowtie2.sh
+
 ml Bowtie2/2.5.4-GCC-13.3.0
 ml SAMtools/1.21-GCC-13.3.0
 
